@@ -1,0 +1,17 @@
+name: PersonalBubble
+author: chasedig
+description: A personal space bubble around certain players that other players cannot enter!
+version: 1.0
+main: com.chasecarlson.personalbubble.PersonalBubble
+api-version: 1.16
+commands:
+  bubble:
+    description: Enable/disable your bubble
+    usage: /<command> {enable|disable} [player]
+permissions:
+  personalbubble.bubble:
+    description: Allows you to have a bubble and enable/disable it
+  personalbubble.bubble.others:
+    description: Allows you to enable/disable the bubble of others
+  personalbubble.bubble.bypass:
+    description: Allows you to bypass other's personal space bubbles
